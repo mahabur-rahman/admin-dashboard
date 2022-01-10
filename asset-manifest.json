@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/admin-dashboard/static/css/main.31b854af.css",
+    "main.js": "/admin-dashboard/static/js/main.7d7494e5.js",
+    "static/media/card.jpg": "/admin-dashboard/static/media/card.997d456e9cb77b56639d.jpg",
+    "static/media/news-4.jpg": "/admin-dashboard/static/media/news-4.7baac2bc28c6fc1fb6d3.jpg",
+    "static/media/slides-3.jpg": "/admin-dashboard/static/media/slides-3.e8ffdeba60c140c7de86.jpg",
+    "static/media/news-5.jpg": "/admin-dashboard/static/media/news-5.d9c45891df80905de8ad.jpg",
+    "static/media/slides-1.jpg": "/admin-dashboard/static/media/slides-1.d0bc87f67d1ba45e8a75.jpg",
+    "static/media/news-1.jpg": "/admin-dashboard/static/media/news-1.6c72901270d9ddaf65fc.jpg",
+    "static/media/news-2.jpg": "/admin-dashboard/static/media/news-2.8a5548fe4268c0219f3e.jpg",
+    "static/media/news-3.jpg": "/admin-dashboard/static/media/news-3.0eb7f94df65372166a74.jpg",
+    "static/media/slides-2.jpg": "/admin-dashboard/static/media/slides-2.8a161d8011795ae0a4b5.jpg",
+    "static/media/product-2.jpg": "/admin-dashboard/static/media/product-2.e59db017a8627e06b959.jpg",
+    "static/media/msg3.jpg": "/admin-dashboard/static/media/msg3.79d509d9204ef86f77c9.jpg",
+    "static/media/product-1.jpg": "/admin-dashboard/static/media/product-1.59317eca101faef7fff9.jpg",
+    "static/media/product-3.jpg": "/admin-dashboard/static/media/product-3.20361ab11b9417613069.jpg",
+    "static/media/product-5.jpg": "/admin-dashboard/static/media/product-5.a6cf2953aeb1c8db9abc.jpg",
+    "static/media/error.svg": "/admin-dashboard/static/media/error.ee1da56b3b938294ddcdc22b5f9d043f.svg",
+    "index.html": "/admin-dashboard/index.html",
+    "main.31b854af.css.map": "/admin-dashboard/static/css/main.31b854af.css.map",
+    "main.7d7494e5.js.map": "/admin-dashboard/static/js/main.7d7494e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31b854af.css",
+    "static/js/main.7d7494e5.js"
+  ]
+}
