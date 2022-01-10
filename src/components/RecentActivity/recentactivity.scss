@@ -1,0 +1,102 @@
+#activity {
+    overflow: hidden;
+    // item list
+    .item_list {
+        .time {
+            p {
+                line-height: 21px;
+                color: #888;
+                font-size: 14px;
+            }
+        }
+        .content {
+            .round_circle {
+                padding-left: 1rem;
+                padding-right: 0.7rem;
+                font-size: 10px;
+            }
+            .text_para {
+                position: relative;
+                font-size: 14px;
+                color: #444;
+                line-height: 21px;
+            }
+            .text_para::before {
+                content: "";
+                position: absolute;
+                top: 36%;
+                left: -9.8%;
+                background-color: #eceefe;
+                width: 4px;
+                height: 108%;
+            }
+        }
+    }
+}
+
+// ---------- responsive start ----------
+// 1200px
+@media (max-width: "1200px") {
+    #activity {
+        padding: 0.5rem;
+    }
+    #activity .item_list .content .round_circle {
+        padding-left: 0;
+    }
+    .w-25 {
+        width: 35% !important;
+    }
+    #activity .item_list .content .text_para::before {
+        top: 37%;
+        height: 90%;
+    }
+}
+
+// 1199px
+@media (max-width: "1199px") {
+    #activity .item_list .content .text_para::before {
+        left: -7.8%;
+    }
+}
+
+// 1000px
+@media (max-width: "1000px") {
+    #activity .item_list .content .text_para::before {
+        left: -9%;
+    }
+}
+
+// 991px
+@media (max-width: "991px") {
+    #activity .item_list .content .text_para::before {
+        left: -6.5%;
+        top: 71%;
+        height: 150%;
+    }
+    .w-25 {
+        width: 15% !important;
+        padding-left: 0.5rem;
+    }
+    .item_list.d-flex {
+        padding: 0.3rem 0;
+    }
+}
+
+// 575px
+@media (max-width: "575px") {
+    .w-25 {
+        width: 22% !important;
+    }
+}
+
+// 460px
+@media (max-width: "460px") {
+    .w-25 {
+        width: 60% !important;
+    }
+    #activity .item_list .content .text_para::before {
+        display: none;
+    }
+}
+
+// end of responsive

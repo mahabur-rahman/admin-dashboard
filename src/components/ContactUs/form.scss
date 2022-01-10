@@ -1,0 +1,41 @@
+// box
+.box_card {
+    .card {
+        height: 210px;
+    }
+}
+
+.contact_form {
+    .card {
+        form {
+            .form-control {
+                outline: none;
+                font-size: 14px;
+                padding: 10px 15px;
+                box-shadow: none;
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                -o-border-radius: 0;
+                // focus
+                &:focus {
+                    border-color: #4154f1;
+                }
+            }
+            // submit button
+            .submit_btn {
+                background: #4154f1;
+                border: 0;
+                padding: 10px 30px;
+                color: #fff;
+                transition: 0.4s;
+                border-radius: 4px;
+                // hover
+                &:hover {
+                    background: #5969f3;
+                }
+            }
+        }
+    }
+}

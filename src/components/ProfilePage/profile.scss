@@ -1,0 +1,187 @@
+// profile part
+.profile_info {
+    // card
+    .card {
+        // img
+        .card-img-top {
+            margin: 0 auto;
+            max-width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+        // title
+        .name_info {
+            font-size: 24px !important;
+            font-weight: 700;
+            color: #2c384e !important;
+            padding: 0 !important;
+        }
+        .designation {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        // profile link
+        .profile_link {
+            ul li a {
+                margin-right: 10px;
+                font-size: 20px;
+                color: rgba(1, 41, 112, 0.5);
+                transition: 0.3s;
+                -webkit-transition: 0.3s;
+                -moz-transition: 0.3s;
+                -ms-transition: 0.3s;
+                -o-transition: 0.3s;
+            }
+            // hover
+            ul li a svg:hover {
+                color: #012970;
+            }
+        }
+    }
+}
+
+// profile details
+.profile_details {
+    .nav-tabs {
+        border-bottom: 2px solid #ebeef4;
+    }
+    .nav-link {
+        font-weight: 400;
+        color: #495057;
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+        // hover
+        &:hover {
+            color: #4154f1;
+        }
+    }
+    .nav-tabs-bordered .nav-link.active {
+        border: none;
+        border-bottom: 2px solid #4154f1;
+    }
+    .nav-tabs .nav-link.active {
+        color: #4154f1;
+        background-color: #fff;
+        border-color: transparent;
+        border-bottom: 2px solid #4154f1;
+    }
+    // overview title
+    .overview_title {
+        color: #012970;
+        padding: 20px 0 15px 0;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+    }
+    // text
+    .overview_text {
+        color: #444444;
+        font-style: italic;
+        font-size: 0.875em;
+        margin-bottom: 1rem;
+    }
+    .pro_heading {
+        text-transform: capitalize;
+        color: #012970;
+        padding: 20px 0 15px 0;
+        font-size: 18px;
+        font-weight: 700;
+        color: #012970;
+    }
+    .dynamic_title {
+        font-size: 15px;
+        font-weight: 600;
+        color: rgba(1, 41, 112, 0.6);
+    }
+    .dynamic_ans {
+        font-size: 15px;
+    }
+}
+
+// edit profile part
+.edit_profile_part {
+    .edit_label {
+        text-transform: capitalize;
+        font-size: 1rem;
+        font-weight: 600;
+        color: rgba(1, 41, 112, 0.6);
+        padding-top: calc(0.375rem + 1px);
+        padding-bottom: calc(0.35rem + 0.1px);
+        margin-bottom: 0;
+        line-height: 1.5;
+    }
+    // left part list
+    .left_part {
+        .mb {
+            margin-bottom: 100%;
+        }
+        ul li {
+            margin: 1.1rem 0;
+        }
+        ul li:first-child {
+            margin: 0;
+        }
+        .gap {
+            padding-bottom: 36%;
+        }
+    }
+}
+
+// settings part
+.settings_part {
+    .settings_title {
+        font-size: 1.09rem !important;
+        color: #444;
+        padding-top: calc(0.375rem + 1px);
+        padding-bottom: calc(0.375rem + 1px);
+        margin-bottom: 0;
+        font-size: inherit;
+        line-height: 1.5;
+        font-weight: 400;
+    }
+}
+
+// ----------- responsive -----------
+// 1200px
+@media (max-width: "1200px") {
+    .edit_profile_part .left_part .mb {
+        margin-bottom: 132%;
+    }
+    .edit_profile_part .left_part ul li {
+        margin: 1rem 0;
+    }
+    .edit_profile_part .edit_label {
+        padding-top: calc(0.12rem + 1px);
+    }
+}
+
+// 1199px
+@media (max-width: "1199px") {
+    .edit_profile_part .left_part .mb {
+        margin-bottom: 117%;
+    }
+    .edit_profile_part .left_part ul li {
+        margin: 1.1rem 0;
+    }
+    .edit_profile_part .edit_label {
+        padding-top: calc(0.12rem + -1px);
+    }
+}
+
+// 991px
+@media (max-width: "991px") {
+    .edit_profile_part .left_part .mb {
+        margin-bottom: 1rem;
+    }
+    .edit_profile_part .left_part .gap {
+        padding-bottom: 0;
+    }
+}

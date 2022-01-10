@@ -1,0 +1,38 @@
+.breadcrumb_page {
+    overflow: hidden;
+}
+
+.centered_position .breadcrumb {
+    justify-content: center;
+}
+
+.-mt-4 {
+    margin-top: -1.1%;
+}
+
+.breadcrumb_page {
+    .MuiBreadcrumbs-li {
+        font-size: 14px;
+        font-family: "Nunito", sans-serif;
+        color: #899bbd;
+        font-weight: 500;
+    }
+    .MuiBreadcrumbs-li a {
+        color: #899bbd;
+    }
+    .MuiBreadcrumbs-li a:hover {
+        color: #51678f;
+    }
+    .circle_fill {
+        font-size: 6px;
+        color: #899bbd;
+    }
+}
+
+.right_position .breadcrumb {
+    justify-content: right;
+}
+
+.-mt-6 {
+    margin-top: -15%;
+}

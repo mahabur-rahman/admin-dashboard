@@ -1,0 +1,25 @@
+#productTable {
+    overflow: hidden;
+    .main_title {
+        color: #212529;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    // img
+    .prod_img {
+        border-radius: 5px;
+        max-width: 60px;
+    }
+    // title
+    .title_text {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    // table heading
+    thead {
+        background: #f6f6fe;
+    }
+    td {
+        font-size: 14px;
+    }
+}

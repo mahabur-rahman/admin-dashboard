@@ -1,0 +1,17 @@
+.declare_accordion {
+    overflow: hidden;
+}
+
+.declare_accordion .accordion-button:focus {
+    box-shadow: none;
+}
+
+.declare_accordion .accordion-button {
+    border: 1px solid #ebeef4;
+}
+
+.declare_accordion .para {
+    font-size: 1rem;
+    color: #000;
+    opacity: 0.9;
+}

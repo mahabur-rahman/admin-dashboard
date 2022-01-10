@@ -1,0 +1,108 @@
+#sidebarContent {
+    padding-bottom: 1.6rem;
+    overflow: hidden;
+    // main menu
+    .nav-link {
+        font-size: 15px;
+        font-weight: 600;
+        color: #4154f1;
+        padding: 10px 15px;
+        transition: 0.3s;
+        border-radius: 4px;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+    }
+    .nav-link:hover {
+        color: #4154f1;
+    }
+    .active_title {
+        background: #f6f9ff;
+    }
+    // icon
+    .same_icon {
+        font-size: 16px;
+        margin-right: 10px;
+        color: #899bbd;
+    }
+    .circle_icon {
+        font-size: 6px;
+        position: relative;
+    }
+    .circle_icon::before {
+        opacity: 0;
+        visibility: hidden;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #012970;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .circle_icon:hover::before {
+        opacity: 1;
+        visibility: visible;
+    }
+    // title
+    .title_heading {
+        color: #012970;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: "Open Sans", sans-serif;
+    }
+    .title_heading:hover,
+    .same_icon:hover {
+        color: #4154f1;
+    }
+    // accordion
+    .accordion-item:last-of-type .accordion-button.collapsed:hover {
+        background: #f6f9ff;
+    }
+    .accordion-item {
+        border: none;
+    }
+    .accordion-button {
+        padding: 10px 15px;
+    }
+    .accordion-button:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+    .list_ml {
+        padding: 5px 10px;
+        margin-top: 1.1rem;
+        margin-left: 1.2rem;
+    }
+    .sidebar-nav .nav-link i {
+        font-size: 16px;
+    }
+    .accordion-button::after {
+        width: 1rem;
+        height: 1rem;
+        background-size: 1rem;
+    }
+    // sub menu
+    .sub_menu {
+        font-size: 14px;
+    }
+    // pages
+    .page_list {
+        .text {
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #899bbd;
+            font-weight: 600;
+            margin: 10px 0 5px 20px;
+        }
+    }
+}
+
+// ------ responsive ------
+@media (max-width: "1200px") {}

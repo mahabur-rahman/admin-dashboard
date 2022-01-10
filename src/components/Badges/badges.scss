@@ -1,0 +1,17 @@
+.badge_page {
+    .bg-light {
+        color: #000;
+    }
+}
+
+.badge_page .btn-primary {
+    background-color: none;
+}
+
+.text-light.font-bold.text-capitalize.px-2.py-1.mx-1.bg-transparent.badge.bg-primary {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.-mt-3 {
+    margin-top: -3%;
+}

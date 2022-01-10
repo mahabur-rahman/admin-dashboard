@@ -1,0 +1,12 @@
+// --------- responsive ----------
+@media (max-width: "447px") {
+    .button_spin {
+        .btn {
+            padding: 0.375rem 0.1rem;
+        }
+        .mx-2 {
+            margin-right: 0.3rem !important;
+            margin-left: 0 !important;
+        }
+    }
+}

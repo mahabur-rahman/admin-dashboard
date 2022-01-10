@@ -1,0 +1,43 @@
+#notFound {
+    overflow: hidden;
+    padding: 30px;
+    .error_content {
+        .no_text {
+            font-size: 180px;
+            font-weight: 700;
+            color: #4154f1;
+            margin-bottom: 0;
+            line-height: 150px;
+        }
+        .notExist_title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #012970;
+            margin-bottom: 30px;
+            line-height: 1.2;
+        }
+        // btn
+        .back_Btn {
+            color: #fff;
+            background: #51678f;
+            padding: 8px 30px;
+            font-weight: 400;
+            line-height: 1.5;
+            border: 1px solid transparent;
+            font-size: 1rem;
+            border-radius: 0.25rem;
+            transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            // hover
+            &:hover {
+                background: #3e4f6f;
+            }
+        }
+    }
+}
+
+// ----- responsive ------
+@media (max-width: "380px") {
+    #notFound .error_content .no_text {
+        font-size: 8rem;
+    }
+}

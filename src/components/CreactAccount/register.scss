@@ -1,0 +1,36 @@
+#registerAccount {
+    overflow: hidden;
+    // logo
+    .register_logo {
+        max-height: 26px;
+        margin-right: 6px;
+    }
+    .logo_name {
+        font-size: 26px;
+        font-weight: 700;
+        color: #012970;
+    }
+    // card
+    .card {
+        box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+        border: 0;
+        // title
+        .reg_title {
+            padding: 20px 0 7px 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #012970;
+        }
+        // text
+        .reg_text {
+            margin-bottom: 1rem;
+            font-size: 0.875rem;
+        }
+        .hover_text:hover {
+            color: #717ff5 !important;
+        }
+        .login_text {
+            font-size: 0.875rem;
+        }
+    }
+}

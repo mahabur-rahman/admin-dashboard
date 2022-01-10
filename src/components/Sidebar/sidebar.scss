@@ -1,0 +1,43 @@
+//
+.mySidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.openSideNav {
+    width: 300px;
+}
+
+.main {
+    margin-left: 0;
+}
+
+.openMain {
+    margin-left: 300px;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+}
+
+// media queries
+@media (max-width: 1199px) {
+    .openMain {
+        margin-left: 0;
+    }
+    .mySidenav {
+        width: 300px;
+    }
+    .openSideNav {
+        width: 0px;
+    }
+}
